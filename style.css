@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    max-width: 1440px;
+    margin: 0;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+header {
+    background: url(images/bg-header-desktop.png);
+    margin: -8px 0;
+    display: flex;
+    background-repeat: no-repeat;
+}
+div.logo {
+    display: flex;
+    padding: 80px;
+    margin: 0 auto;
+    align-self: center;
+}
+.container1 {
+    text-align: center;
+    margin-top: -100px;
+}
+.paragraph {
+    height: 146px;
+    margin: 50px;
+}
+p.box {
+    padding: 15px 40px;
+    border-radius: 30px;
+    display: inline;
+    margin: 5px;
+    color: white;
+}
+p.box.cyan {
+    background-color: hsl(171, 73%, 44%);
+    box-shadow: 0px 14px 6px -5px #43977d9e;
+    cursor: pointer;
+}
+p.box.blue {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow:  0 14px 6px -5px rgba(0, 21, 161, 0.377);
+    cursor: pointer;
+}
+.main-middle {
+    display: flex;
+    margin: 5em 0 6em;
+}
+div.computer-image {
+    width: 50%;
+}
+img.computer-image1 {
+    width: 100%;
+}
+.float-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 6em 2em;
+}
+div.flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+}
+div.flex>div {
+    padding: 25px;
+}
+div.flex div>img {
+    width: 44px;
+    height: 40px;
+}
+section {
+    margin: 0 auto;
+    text-align: center;
+}
+div.companies {
+    padding: 30px;
+    margin-bottom: 50px;
+}
+div.companies>img {
+    padding: 45px;
+}
+footer {
+    background-color: hsla(202, 11%, 66%, 0.11);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 40px;
+}
+section.foot-sec {
+    width: 50%;
+    display: flex;
+    text-align: initial;
+}
+img.logo-bottom {
+    width: 55px;
+    margin-top: 20px;
+}
+nav li {
+    list-style: none;
+    justify-content: space-between;
+    margin: 15px;
+}
+nav.social {
+    margin-right: 60px;
+}
+#social>li {
+    display: inline-block;
+}
+h3 {
+    margin: 20px 0 0px;
+}
+h1 {
+    padding: 0;
+}
+img.logo1 {
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+}
+p {
+    color: hsl(201, 11%, 66%);
+    margin: 10px 0 18px;
+    line-height: 1.5em;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width: 915px){
+
+}
