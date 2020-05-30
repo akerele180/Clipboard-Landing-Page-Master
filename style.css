@@ -158,12 +158,12 @@ p {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width: 915px){
+/*@media screen and (max-width: 915px){
     body {
         display: grid;
     }
-}
-@media screen and (max-width: 400px){
+}*/
+@media screen and (max-width: 375px){
     header {
         margin: 0;
         background-size: auto 600px; 
