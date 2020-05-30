@@ -32,7 +32,7 @@ div.logo {
 }
 p.box {
     padding: 15px 40px;
-    border-radius: 30px;
+    border-radius: 60px;
     display: inline;
     margin: 5px;
     color: white;
@@ -53,6 +53,10 @@ p.box.blue {
 }
 div.computer-image {
     width: 50%;
+}
+.mid {
+    width: 690px;
+    margin: 15px auto;
 }
 img.computer-image1 {
     width: 100%;
@@ -116,8 +120,30 @@ nav.social {
 h3 {
     margin: 20px 0 0px;
 }
+h2 {
+    display: inline-block;
+}
 h1 {
     padding: 0;
+    display: inline;
+}
+h1 + div {
+    width: 640px;
+    margin: 22px auto;
+}
+.track>p {
+    width: 697px;
+    margin: 0 auto;
+}
+section h2 + p {
+    margin: 0 auto;
+    width: 660px;
+}
+section h1 + p {
+
+}
+span {
+    display: inline;
 }
 img.logo1 {
     display: block;
@@ -133,7 +159,130 @@ p {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media screen and (max-width: 915px){
-    body{
+    body {
         display: grid;
+    }
+}
+@media screen and (max-width: 400px){
+    header {
+        margin: 0;
+        background-size: auto 600px; 
+    }
+    img.logo1 {
+        width: 385px;
+    }
+    .container1 {
+        margin: 0 auto;
+    }
+    .one {
+        width: 745px;
+    }
+    .track {
+        display: grid;
+        margin-top: 500px;
+    }
+    .track>p {
+        padding: 40px 80px;
+        width: 882px;
+    }
+    .two{
+        width: 700px;
+        margin: 5px auto; 
+    }
+    h1 {
+        font-size:4.5rem;
+        margin: 0 10px;
+        line-height: 6rem;
+        display: block;
+    }
+    h1 + p {
+        padding: 20px 76px;
+    }
+    h2 {
+        display: block;
+        font-size: 4em;
+        margin: 4px 0;
+    }
+    #para {
+        width: 97%;
+    }
+    p {
+        font-size: 2.5rem;
+        margin: 40px auto;
+    }
+    .mid {
+        padding: 0;
+    }
+    .paragraph {
+        display: grid;
+        grid-gap: 70px;
+        margin-top: 110px;
+    }
+    .main-middle {
+        display: block;
+        text-align: center;
+    }
+    div.computer-image{
+        margin: 5em auto;
+        width: 80%;
+    }
+    div.float-left {
+        width: 89%;
+        margin: 0 auto;
+    }
+    div.float-left>h3 {
+        font-size: 3em;
+        margin-top: 2em;    
+    }
+    h2.access {
+        font-size: 3.8em;
+        margin: 3em auto 0.5em;
+    }
+    img.supercharge {
+        margin: 65px auto;
+    }
+    div.flex {
+        grid-template-columns: 1fr;
+        margin: 100px auto;
+    }
+    div.parts {
+        width: 100px;
+        height: 100px;
+        margin: 80px auto;
+    }
+    img.parts {
+        width: 100px !important;
+        height: 100px !important;   
+    }
+    .blacklist, .snippets, .preview {
+        font-size: 3em;
+    }
+    .companies {
+        display: grid;
+        grid-gap: 20px;
+        margin: 60px auto;
+    }
+    .companies > img {
+        padding: 0;
+        margin: 0 auto;
+        width: 309px;
+        height: 176px;
+    }
+    footer{
+        position: relative;
+        margin: 405px 0 0;
+    }
+    section.foot-sec {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    nav.social {
+        position: absolute;
+    }
+    ul#social >li {
+        display: block;
+    }
+    img.logo-bottom{
+        width:37%;
     }
 }
