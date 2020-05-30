@@ -164,6 +164,9 @@ p {
     }
 }*/
 @media screen and (max-width: 375px){
+    body{
+        display: grid;
+    }
     header {
         margin: 0;
         background-size: auto 600px; 
