@@ -157,6 +157,20 @@ p {
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media screen and (max-width: 2560px){
+    body {
+        display: grid;
+        max-width: 2560px;
+    }
+    header {
+        background: url(images/bg-header-desktop.png);
+        background-size: 105%;
+        margin: -8px 0;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+}
+
 @media screen and (max-width: 915px){
     body {
         display: grid;
